@@ -1,0 +1,50 @@
+-- Found Git: /opt/homebrew/bin/git (found version "2.40.1") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/iliakhitrov/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/iliakhitrov/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/iliakhitrov/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32c6
+-- Project sdkconfig file /Users/iliakhitrov/Desktop/thesis/code/esp32c6/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/iliakhitrov/.espressif/python_env/idf5.1_py3.9_env/bin/python (found version "3.9.13") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "pc_bench_esp32c6" version: 1
+-- Adding linker script /Users/iliakhitrov/Desktop/thesis/code/esp32c6/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_system/ld/esp32c6/sections.ld.in
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.api.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.rvfp.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.newlib.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.version.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.phy.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.coexist.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.net80211.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.pp.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.wdt.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.newlib-normal.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.heap.ld
+-- Adding linker script /Users/iliakhitrov/esp/esp-idf/components/soc/esp32c6/ld/esp32c6.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table protobuf-c protocomm pthread riscv sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: /Users/iliakhitrov/esp/esp-idf/components/app_trace /Users/iliakhitrov/esp/esp-idf/components/app_update /Users/iliakhitrov/esp/esp-idf/components/bootloader /Users/iliakhitrov/esp/esp-idf/components/bootloader_support /Users/iliakhitrov/esp/esp-idf/components/bt /Users/iliakhitrov/esp/esp-idf/components/cmock /Users/iliakhitrov/esp/esp-idf/components/console /Users/iliakhitrov/esp/esp-idf/components/cxx /Users/iliakhitrov/esp/esp-idf/components/driver /Users/iliakhitrov/esp/esp-idf/components/efuse /Users/iliakhitrov/esp/esp-idf/components/esp-tls /Users/iliakhitrov/esp/esp-idf/components/esp_adc /Users/iliakhitrov/esp/esp-idf/components/esp_app_format /Users/iliakhitrov/esp/esp-idf/components/esp_coex /Users/iliakhitrov/esp/esp-idf/components/esp_common /Users/iliakhitrov/esp/esp-idf/components/esp_eth /Users/iliakhitrov/esp/esp-idf/components/esp_event /Users/iliakhitrov/esp/esp-idf/components/esp_gdbstub /Users/iliakhitrov/esp/esp-idf/components/esp_hid /Users/iliakhitrov/esp/esp-idf/components/esp_http_client /Users/iliakhitrov/esp/esp-idf/components/esp_http_server /Users/iliakhitrov/esp/esp-idf/components/esp_https_ota /Users/iliakhitrov/esp/esp-idf/components/esp_https_server /Users/iliakhitrov/esp/esp-idf/components/esp_hw_support /Users/iliakhitrov/esp/esp-idf/components/esp_lcd /Users/iliakhitrov/esp/esp-idf/components/esp_local_ctrl /Users/iliakhitrov/esp/esp-idf/components/esp_mm /Users/iliakhitrov/esp/esp-idf/components/esp_netif /Users/iliakhitrov/esp/esp-idf/components/esp_netif_stack /Users/iliakhitrov/esp/esp-idf/components/esp_partition /Users/iliakhitrov/esp/esp-idf/components/esp_phy /Users/iliakhitrov/esp/esp-idf/components/esp_pm /Users/iliakhitrov/esp/esp-idf/components/esp_psram /Users/iliakhitrov/esp/esp-idf/components/esp_ringbuf /Users/iliakhitrov/esp/esp-idf/components/esp_rom /Users/iliakhitrov/esp/esp-idf/components/esp_system /Users/iliakhitrov/esp/esp-idf/components/esp_timer /Users/iliakhitrov/esp/esp-idf/components/esp_wifi /Users/iliakhitrov/esp/esp-idf/components/espcoredump /Users/iliakhitrov/esp/esp-idf/components/esptool_py /Users/iliakhitrov/esp/esp-idf/components/fatfs /Users/iliakhitrov/esp/esp-idf/components/freertos /Users/iliakhitrov/esp/esp-idf/components/hal /Users/iliakhitrov/esp/esp-idf/components/heap /Users/iliakhitrov/esp/esp-idf/components/http_parser /Users/iliakhitrov/esp/esp-idf/components/idf_test /Users/iliakhitrov/esp/esp-idf/components/ieee802154 /Users/iliakhitrov/esp/esp-idf/components/json /Users/iliakhitrov/esp/esp-idf/components/log /Users/iliakhitrov/esp/esp-idf/components/lwip /Users/iliakhitrov/Desktop/thesis/code/esp32c6/main /Users/iliakhitrov/esp/esp-idf/components/mbedtls /Users/iliakhitrov/esp/esp-idf/components/mqtt /Users/iliakhitrov/esp/esp-idf/components/newlib /Users/iliakhitrov/esp/esp-idf/components/nvs_flash /Users/iliakhitrov/esp/esp-idf/components/openthread /Users/iliakhitrov/esp/esp-idf/components/partition_table /Users/iliakhitrov/esp/esp-idf/components/protobuf-c /Users/iliakhitrov/esp/esp-idf/components/protocomm /Users/iliakhitrov/esp/esp-idf/components/pthread /Users/iliakhitrov/esp/esp-idf/components/riscv /Users/iliakhitrov/esp/esp-idf/components/sdmmc /Users/iliakhitrov/esp/esp-idf/components/soc /Users/iliakhitrov/esp/esp-idf/components/spi_flash /Users/iliakhitrov/esp/esp-idf/components/spiffs /Users/iliakhitrov/esp/esp-idf/components/tcp_transport /Users/iliakhitrov/esp/esp-idf/components/ulp /Users/iliakhitrov/esp/esp-idf/components/unity /Users/iliakhitrov/esp/esp-idf/components/usb /Users/iliakhitrov/esp/esp-idf/components/vfs /Users/iliakhitrov/esp/esp-idf/components/wear_levelling /Users/iliakhitrov/esp/esp-idf/components/wifi_provisioning /Users/iliakhitrov/esp/esp-idf/components/wpa_supplicant
+-- Configuring done (2.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/iliakhitrov/Desktop/thesis/code/esp32c6/build
